@@ -5,8 +5,6 @@ var alfupperbet = require('node-alfupperbet');
 http.createServer(function (req, res) {
   res.setHeader('Content-Type', 'application/json');
 
-  console.log(req.url);
-
   if (req.url === '/api/v1/lowercase') {
     response = JSON.stringify(alfalfabet);
   }

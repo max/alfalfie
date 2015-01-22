@@ -12,7 +12,7 @@ http.createServer(function (req, res) {
     response = JSON.stringify(alfupperbet);
   }
   else {
-    response = JSON.stringify({ error: 'Use /api/1/<uppercase|lowercase>...'});
+    response = JSON.stringify({ error: 'Use /api/v1/<uppercase|lowercase>...'});
   }
 
   res.end(response);

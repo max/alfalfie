@@ -1,0 +1,32 @@
+{
+  "name": "alfalfie",
+  "version": "1.0.0",
+  "description": "A JSON API for the alphabet",
+  "license": "MIT",
+  "repository": "max/alfalfie",
+  "author": {
+    "name": "Max Schoening",
+    "email": "mail@maximilian.io",
+    "url": "maximilian.io"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "alphabet",
+    "alfalfabet",
+    "alfupperbet",
+    "moduleitis",
+    "list",
+    "uppercase",
+    "array",
+    "api",
+    "#blessed"
+  ],
+  "dependencies": {
+    "node-alfalfabet": "^1.0.0",
+    "node-alfupperbet": "^1.0.1"
+  }
+}

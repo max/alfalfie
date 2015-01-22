@@ -4,5 +4,18 @@ var alfupperbet = require('node-alfupperbet');
 
 http.createServer(function (req, res) {
   res.setHeader('Content-Type', 'application/json');
-  res.end(JSON.stringify(alfalfabet));
+
+  console.log(req.url);
+
+  if (req.url === '/api/v1/lowercase') {
+    response = JSON.stringify(alfalfabet);
+  }
+  else if (req.url === '/api/v1/uppercase') {
+    response = JSON.stringify(alfupperbet);
+  }
+  else {
+    response = JSON.stringify({ error: 'Use /api/1/<uppercase|lowercase>...'});
+  }
+
+  res.end(response);
 }).listen(parseInt(process.env.PORT) || 5000);

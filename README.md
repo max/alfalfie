@@ -17,7 +17,7 @@ curl https://alfalfie.herokuapp.com/api/v1/lowercase
 ### Uppercase alphabet
 
 ```
-curl https://alfalfie.herokuapp.com/api/v1/lowercase
+curl https://alfalfie.herokuapp.com/api/v1/uppercase
 ```
 
 ## Running locally
